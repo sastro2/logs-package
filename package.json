@@ -1,0 +1,13 @@
+{
+  "name": "logs-package",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Add logs to your project and create custom logs to fit your needs",
+  "main": "index.ts",
+  "repository": "https://github.com/sastro2/logs-package",
+  "author": "Sascha Stropek <sascha.stropek@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
