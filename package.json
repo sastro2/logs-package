@@ -1,13 +1,21 @@
 {
   "name": "logs-package",
   "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
-  "description": "Add logs to your project and create custom logs to fit your needs",
-  "main": "index.ts",
-  "repository": "https://github.com/sastro2/logs-package",
-  "author": "Sascha Stropek <sascha.stropek@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/config": "^3.3.0",
+    "node-fetch": "^3.2.9",
     "typescript": "^4.7.4"
   }
 }
