@@ -1,7 +1,7 @@
 export declare class Log {
-    logType: string;
-    text: string;
     timestamp: number;
+    type: string;
+    message: string;
     constructor(text: string, logType?: string);
 }
 export declare const logTypes: {
